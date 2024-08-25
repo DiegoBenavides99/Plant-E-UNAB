@@ -1,3 +1,4 @@
+# from django.db import models
 from django.db import models
 
 # Create your models here.
@@ -85,3 +86,14 @@ class HISTORIAL_TRATAMIENTO(models.Model):
 
     def __str__(self):
         return f"Historial {self.id_historial} - Planta {self.id_planta}"
+
+
+# from API.models import USUARIO, PLANTA, HONGO, DIAGNOSTICO, IMAGEN, TRATAMIENTO, HISTORIAL_TRATAMIENTO
+# from django.contrib import admin
+# admin.site.register(USUARIO)
+# admin.site.register(PLANTA)
+# admin.site.register(IMAGEN)
+# admin.site.register(HONGO)
+# admin.site.register(DIAGNOSTICO)
+# admin.site.register(TRATAMIENTO)
+# admin.site.register(HISTORIAL_TRATAMIENTO)
